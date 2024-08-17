@@ -57,7 +57,7 @@ app.use(session({
 }))
 
 
-app.get("/", (req, res) => {
+app.use("/", (req, res) => {
     res.send('Welcome')
 })
 
