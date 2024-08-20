@@ -57,9 +57,7 @@ app.use(session({
 }))
 
 
-app.post('/', (req, res) => {
-    res.send('homepage')
-})
+
 
 app.get("/", (req, res) => {
     res.send('Welcome')
