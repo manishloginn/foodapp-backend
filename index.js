@@ -61,6 +61,7 @@ app.use(session({
 
 app.get("/", (req, res) => {
     res.send('Welcome')
+    console.log("welcome")
 })
 
 app.post('/registerUser', async (req, res) => {
